@@ -5,6 +5,13 @@ A simple genetic algorithm in C that tries to produce a target string starting f
 Original idea coded in Python by Doug Lloyd, can be found [here](https://github.com/dlloyd09/genetic),
 as it was produced live at a CS50's twitch stream which is available [here](https://www.youtube.com/watch?v=EmTAMDnDo9o).
 
+## Files' Description
+- **genetic.c** Contains the main algorithm's source.
+- **cell.h** Contains the ```cell_t``` type definition and function declarations related to that type.
+- **cell.c** Contatins the definitions of the functions declared in **cell.h**.
+- **pool.h** Contains the ```int_pool``` type definition and function declarations related to that type.
+- **pool.c** Contatins the definitions of the functions declared in **pool.h**.
+
 ## Compilation
 Clone the repository and then compile the code:
 
