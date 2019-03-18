@@ -67,6 +67,7 @@ void addToPool(int_pool* restrict pool, int const newNumber)
     if (isFull(*pool))
     {
         fprintf(stderr, "Tried to add a new element into a full pool.\n");
+        exit(EXIT_FAILURE);
     }
 
     pool->elements[pool->size++] = newNumber;
