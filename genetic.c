@@ -184,7 +184,7 @@ int main(void)
     free(cellDataSpace2);
     deletePool(&matingPool);
 
-    // The algorithm has failed to reach the target withing the limit.
+    // The algorithm has failed to reach the target within the limit.
     return EXIT_FAILURE;
 }
 
